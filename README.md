@@ -23,7 +23,7 @@ start via docker:
 - `docker run -p 5000:5000 --env-file dev.env hello-world-flask`
   - instruct docker to run the hello-world-flask image in a new container
   - publish the output of the container to port 5000
-    - publish <host>:<container>
+    - publish `<host>:<container>`
   - instruct docker to load the environment variables found in dev.env
 - navigate to localhost:5000
 
